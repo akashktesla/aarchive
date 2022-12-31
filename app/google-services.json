@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532592266579",
+    "firebase_url": "https://aarchive-79997-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aarchive-79997",
+    "storage_bucket": "aarchive-79997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532592266579:android:6b0aac62c3cee3e0ece5a6",
+        "android_client_info": {
+          "package_name": "com.example.aarchive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532592266579-8l2idg7oql5k4v32d3fj3he7kkudl0r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGRY-RpFgEv_ebWP_4oUSNXHs_S0-lBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532592266579-8l2idg7oql5k4v32d3fj3he7kkudl0r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgblack"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@+id/signup_header"
+                android:background="@drawable/logo" />
+            <TextView
+                android:id="@+id/signup_header"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/bred"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="SIGN UP"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="60dp"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/signup_designation"
+                android:textColor="@color/bred"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:text="Designation"
+                android:layout_below="@+id/signup_header"
+                />
+            <RadioGroup
+                android:id="@+id/signup_designation_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/signup_header"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/signup_designation"
+
+                >
+                <RadioButton
+                    android:id="@+id/signup_designation_student"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dyellow"
+                    android:text="Student"
+                    />
+                <RadioButton
+                    android:id="@+id/signup_designation_teacher"
+                    android:textColor="@color/dyellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Staff"
+                    />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@+id/signup_designation"
+                android:id="@+id/linearlay">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:background="@color/bgblack"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bgblack"
+                        android:foregroundTint="@color/bred"
+                        android:textColor="@color/dyellow"
+                        android:id="@+id/signup_nameet"
+                        android:hint="name"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="rollno"
+                        android:background="@color/bgblack"
+                        android:textColor="@color/dyellow"
+                        android:id="@+id/signup_rollnoet"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/signup_mobileet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bgblack"
+                        android:textColor="@color/dyellow"
+                        android:hint="Mobile number"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/dyellow"
+                        android:background="@color/bgblack"
+                        android:hint="Semester"
+                        android:id="@+id/signup_semesteret"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:background="@color/bgblack"
+                        android:textColor="@color/dyellow"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:id="@+id/signup_emailet"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bgblack"
+                        android:hint="pasword"
+                        android:inputType="textPassword"
+                        android:textColor="@color/dyellow"
+                        android:id="@+id/signup_passet"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="@color/bred"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bgblack"
+                        android:inputType="textPassword"
+                        android:textColor="@color/dyellow"
+                        android:hint="Confirm password"
+                        android:id="@+id/signup_confirmet"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/signup_signupBtn"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/bred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlay"
+                android:text="signup"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

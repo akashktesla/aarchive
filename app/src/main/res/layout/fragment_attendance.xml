@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bgblack"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendancetFragment">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="100dp"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:background="@color/bred"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Course name"/>
+
+            <TextView
+                android:id="@+id/header_title"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Attendance %"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Class attended"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/secblack"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="App dev"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/attendancep1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"/>
+
+            <TextView
+                android:id="@+id/attendance1"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/secblack"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Big data"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/attendancep2"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="86%"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/attendance2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/secblack"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Operating system"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/attendancep3"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="96%"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/attendance3"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/secblack"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="psychology"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:id="@+id/attendancep4"
+                android:layout_height="wrap_content"
+                android:text="85%"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/attendance4"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:background="@color/secblack"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Business communication"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:id="@+id/attendancep5"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="100%"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:id="@+id/attendance5"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refresh"
+        android:text = "refresh"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

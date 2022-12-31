@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/curve_box.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/trans_box.xml" value="0.1405" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_signup_success.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/layout/activity_teacher_page.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/dropdown_item.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/fragment_attendance.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/fragment_attendancet.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_default.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/fragment_mark.xml" value="0.24087591240875914" />
+        <entry key="app/src/main/res/layout/fragment_markt.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/fragment_resource.xml" value="0.21458333333333332" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.13722826086956522" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.10277777777777777" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1405" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

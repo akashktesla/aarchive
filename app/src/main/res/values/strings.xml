@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Aarchive</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="subjects">
+        <item>Big data</item>
+        <item>App dev</item>
+        <item>Operating systems</item>
+        <item>Psychology</item>
+        <item>Business communication</item>
+
+    </string-array>
+
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="exam">
+        <item>Assignment 1</item>
+        <item>Assignment 2</item>
+        <item>Online quiz</item>
+        <item>Periodicals 1</item>
+        <item>Periodicals 2</item>
+    </string-array>
+    <string-array name="rollno">
+        <item>CB.EN.U4CCE19001</item>
+        <item>CB.EN.U4CCE19002</item>
+        <item>CB.EN.U4CCE19003</item>
+        <item>CB.EN.U4CCE19004</item>
+        <item>CB.EN.U4CCE19005</item>
+        <item>CB.EN.U4CCE19006</item>
+        <item>CB.EN.U4CCE19007</item>
+        <item>CB.EN.U4CCE19008</item>
+        <item>CB.EN.U4CCE19009</item>
+        <item>CB.EN.U4CCE19010</item>
+        <item>CB.EN.U4CCE19011</item>
+        <item>CB.EN.U4CCE19012</item>
+        <item>CB.EN.U4CCE19013</item>
+        <item>CB.EN.U4CCE19014</item>
+        <item>CB.EN.U4CCE19015</item>
+        <item>CB.EN.U4CCE19016</item>
+        <item>CB.EN.U4CCE19017</item>
+        <item>CB.EN.U4CCE19018</item>
+        <item>CB.EN.U4CCE19019</item>
+        <item>CB.EN.U4CCE19020</item>
+        <item>CB.EN.U4CCE19021</item>
+        <item>CB.EN.U4CCE19022</item>
+        <item>CB.EN.U4CCE19023</item>
+        <item>CB.EN.U4CCE19024</item>
+        <item>CB.EN.U4CCE19025</item>
+        <item>CB.EN.U4CCE19026</item>
+        <item>CB.EN.U4CCE19027</item>
+        <item>CB.EN.U4CCE19028</item>
+        <item>CB.EN.U4CCE19029</item>
+        <item>CB.EN.U4CCE19030</item>
+        <item>CB.EN.U4CCE19031</item>
+        <item>CB.EN.U4CCE19032</item>
+        <item>CB.EN.U4CCE19033</item>
+        <item>CB.EN.U4CCE19034</item>
+        <item>CB.EN.U4CCE19035</item>
+        <item>CB.EN.U4CCE19036</item>
+        <item>CB.EN.U4CCE19037</item>
+        <item>CB.EN.U4CCE19038</item>
+        <item>CB.EN.U4CCE19039</item>
+        <item>CB.EN.U4CCE19030</item>
+        <item>CB.EN.U4CCE19041</item>
+        <item>CB.EN.U4CCE19042</item>
+        <item>CB.EN.U4CCE19043</item>
+        <item>CB.EN.U4CCE19044</item>
+        <item>CB.EN.U4CCE19045</item>
+        <item>CB.EN.U4CCE19046</item>
+        <item>CB.EN.U4CCE19047</item>
+        <item>CB.EN.U4CCE19048</item>
+        <item>CB.EN.U4CCE19049</item>
+        <item>CB.EN.U4CCE19050</item>
+        <item>CB.EN.U4CCE19051</item>
+        <item>CB.EN.U4CCE19052</item>
+        <item>CB.EN.U4CCE19053</item>
+        <item>CB.EN.U4CCE19054</item>
+        <item>CB.EN.U4CCE19055</item>
+        <item>CB.EN.U4CCE19056</item>
+        <item>CB.EN.U4CCE19057</item>
+        <item>CB.EN.U4CCE19058</item>
+        <item>CB.EN.U4CCE19059</item>
+        <item>CB.EN.U4CCE19060</item>
+        <item>CB.EN.U4CCE19061</item>
+        <item>CB.EN.U4CCE19062</item>
+        <item>CB.EN.U4CCE19063</item>
+        <item>CB.EN.U4CCE19064</item>
+        <item>CB.EN.U4CCE19065</item>
+        <item>CB.EN.U4CCE19066</item>
+
+    </string-array>
+
+    <string-array name="slot">
+        <item>8:50 am - 9:40 am</item>
+        <item>9:40 am - 10:30 am</item>
+        <item>10:40 am - 11:30 am</item>
+        <item>10:30 am - 12:20 pm</item>
+        <item>1:40 pm - 2:30 pm</item>
+        <item>2:30 pm - 3:20 pm</item>
+        <item>3:20 pm - 4:10 pm</item>
+        <item>4:10pm - 5:00 pm</item>
+    </string-array>
+
+</resources>

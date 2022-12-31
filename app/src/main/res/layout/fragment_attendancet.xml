@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bgblack"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarkFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/main_lay"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="30dp"
+                    android:text="Date"
+                    android:paddingLeft="30dp"
+                    android:layout_height="wrap_content"
+                    android:textSize = "30dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datatv"
+                    android:inputType="date"
+                    android:paddingTop="30dp"
+                    android:textSize="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/bred"
+                    />
+
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:id="@+id/dropdown_subject"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:paddingLeft="30dp"
+                android:hint="subject"
+                android:paddingRight="30dp"
+                android:backgroundTint="@color/secblack"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/subject"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:layout_height="match_parent"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:id="@+id/dropdown_exam"
+                android:layout_width="match_parent"
+                android:paddingLeft="30dp"
+                android:hint="Slot"
+                android:paddingRight="30dp"
+                android:backgroundTint="@color/secblack"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/slot"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:layout_height="match_parent"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:id="@+id/dropdown_rollno"
+                android:layout_width="match_parent"
+                android:paddingLeft="30dp"
+                android:hint="Roll no"
+                android:paddingRight="30dp"
+                android:backgroundTint="@color/secblack"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/rollno"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:layout_height="match_parent"
+                    android:inputType="none"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/bred"
+                android:id="@+id/presence"
+                android:layout_height="wrap_content"
+                android:text="Presence"/>
+            <!--
+            <TableLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:background="@color/bred"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="rollno"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Exam name"/>
+
+
+                    <TextView
+                        android:id="@+id/header_title"
+                        android:gravity="center"
+                        android:layout_weight="0.5"
+                        android:text="Presence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19001"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Laxmanan"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19002"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="adarsh"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19004"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Adhithya"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19005"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Ragavendra"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19006"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Akash"/>
+
+                    <CheckBox />
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19009"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Anuj"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19010"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Arun"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19011"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Ashwin"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19012"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="sneha"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19013"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Thanish"/>
+
+                    <CheckBox />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19014"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="shatin"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19018"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Mahindra"/>
+
+                    <CheckBox />
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19019"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Dhana"/>
+
+                    <CheckBox/>
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19022"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Gokul"/>
+
+                    <CheckBox/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19025"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Harini"/>
+
+                    <CheckBox/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19027"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Karthikeyan"/>
+
+                    <CheckBox/>
+
+                </TableRow>
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19032"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Authi"/>
+
+                    <CheckBox/>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@color/secblack"
+                    >
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:text="19053"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Siva"/>
+
+                    <CheckBox/>
+
+                </TableRow>
+            </TableLayout>
+-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit"
+                android:layout_gravity="center"
+                android:text="SUBMIT"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
